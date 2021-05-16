@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class Week3Homework {
 
-	
+	static Scanner s = new Scanner(System.in);
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -170,7 +173,7 @@ public class Week3Homework {
 		System.out.println("Question 11");
 		System.out.println(' ');
 
-		 double agesTwo[] = {2, 10, 37, 8}; // another sample array for testing
+		 double agesTwo[] = {2, 10, 37, 8}; //another sample array
 
 		 System.out.println(doubleDouble(questionAges, agesTwo));
 
@@ -289,7 +292,7 @@ public class Week3Homework {
 		 *Question 13 Method
 		 */
 
-		// reverse it by missy elliot
+		// reverse it by missy elliot - create a method that when you pass a string to it it will return the string in inverse (such as Hello to olleH)
 
 		private static String rev(String missyElliot) {
 			return new StringBuilder(missyElliot).reverse().toString();
